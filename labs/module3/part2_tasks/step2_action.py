@@ -12,13 +12,7 @@ update(drone) is called every frame to execute the current action.
 Returns True only when ID=2 (maze end) is reached.
 """
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../library'))
-
 import drone_core
-import drone_utils as uav_utils
 
 # ── Timing constants ───────────────────────────────────────────────────────────────
 FLY_THROUGH_DURATION = 3.0   # seconds to fly through a fake wall

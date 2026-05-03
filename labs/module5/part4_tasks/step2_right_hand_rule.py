@@ -40,10 +40,6 @@ Your task:
     Implement the four phases described above.
 """
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../library'))
 import drone_core, drone_utils as uav_utils
 
 STOP_DISTANCE    = 1.2    # m — stop flying when this close to a wall

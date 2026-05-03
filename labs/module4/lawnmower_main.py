@@ -6,8 +6,6 @@ Title: Search & Rescue — Lawnmower Pattern
 
 import sys, os
 _HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../library'))
 sys.path.insert(0, os.path.join(_HERE, '..'))
 import drone_core
 from lawnmower_tasks import step1_setup, step4_search_loop, step5_land

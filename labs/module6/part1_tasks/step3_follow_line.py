@@ -30,11 +30,7 @@ Extension challenge — lap counting:
     north (≈0°/360°) → east (≈90°) → south (≈180°) → west (≈270°) → north again.
 """
 
-import sys, os
 import numpy as np
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../library'))
 import drone_core
 import drone_utils as uav_utils
 from . import step2_detect_line   # re-use the colour constants from step2

@@ -14,11 +14,6 @@ Yaw hint:
     Send negative yaw_cmd for CW rotation.
 """
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../library'))
-
 import drone_core
 
 # ── Constants ──────────────────────────────────────────────────────────────────────

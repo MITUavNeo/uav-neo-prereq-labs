@@ -13,11 +13,6 @@ Purpose: A simple program which can be used to manually test drone_core function
 # Imports
 ########################################################################################
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-
-sys.path.insert(0, os.path.join(_HERE, '../library'))
-sys.path.insert(0, os.path.join(_HERE, '../../uav-neo-library/library'))
 import drone_core
 import drone_utils as uav_utils
 

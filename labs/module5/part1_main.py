@@ -7,8 +7,6 @@ Title: Module 5 Part 1 — Fly to Wall (intro to depth camera distance sensing)
 
 import sys, os
 _HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../library'))
 sys.path.insert(0, os.path.join(_HERE, '..'))
 import drone_core, drone_utils as uav_utils
 from part1_tasks import step1_init, step2_sensors, step3_fly_to_wall

@@ -9,10 +9,6 @@ Your task:
     Phase 0: fly to wall (depth camera). Phase 1: execute turn. Repeat until all turns done.
 """
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../library'))
 import drone_core, drone_utils as uav_utils
 
 STOP_DISTANCE = 1.2; FLY_SPEED = 0.4; YAW_SPEED = 0.5; YAW_THRESH = 3.0

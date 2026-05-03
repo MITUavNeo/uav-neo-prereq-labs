@@ -7,10 +7,6 @@ Your task:
              When |err| < 0.12 → stop, print, set _done = True.
 """
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../library'))
 import drone_core
 
 SEARCH_ALTITUDE = 2.5

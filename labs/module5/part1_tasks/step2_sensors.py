@@ -17,10 +17,6 @@ Your task:
     4. Print the distance, set _done = True, return True.
 """
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../library'))
 import drone_core, drone_utils as uav_utils
 
 MAX_RANGE = 10.0  # metres — clamp readings beyond this

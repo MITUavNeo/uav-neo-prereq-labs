@@ -18,15 +18,8 @@ the script.]
 # Imports
 ########################################################################################
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-
-# Path to the drone library — adjust if your file is in a sub-folder:
-#   same folder as labs/:       '../library'   (default below)
-#   one level deeper (e.g. module2/tasks/):  '../../library'
-sys.path.insert(0, os.path.join(_HERE, '../library'))
-sys.path.insert(0, os.path.join(_HERE, '../../uav-neo-library/library'))
 import drone_core
+# import drone_utils  # uncomment when you need helpers from drone_utils
 
 ########################################################################################
 # Global variables

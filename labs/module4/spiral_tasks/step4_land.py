@@ -14,11 +14,7 @@ Your task:
         After 5 seconds → print, set _done = True.
 """
 
-import sys, os
 import numpy as np
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../library'))
 import drone_core, drone_utils as uav_utils
 from . import step2_fly_leg   # re-use colour constants
 

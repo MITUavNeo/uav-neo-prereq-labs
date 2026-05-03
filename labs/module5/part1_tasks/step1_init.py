@@ -1,9 +1,5 @@
 """Module 5 Part 1 — Step 1: Init (takeoff + reach maze altitude)
 This file is provided complete as a reference for the reset()/update() pattern."""
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../library'))
 import drone_core
 MAZE_ALTITUDE = 1.5; TAKEOFF_WAIT = 3.5
 _phase = 0; _timer = 0.0; _done = False
