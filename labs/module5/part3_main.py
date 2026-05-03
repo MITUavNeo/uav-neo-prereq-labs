@@ -7,8 +7,6 @@ Title: Module 5 Part 3 — Hard Maze: Navigate then Detect Opening
 
 import sys, os
 _HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../library'))
 sys.path.insert(0, os.path.join(_HERE, '..'))
 import drone_core
 from part3_tasks import step1_init, step2_navigate, step3_detect_opening

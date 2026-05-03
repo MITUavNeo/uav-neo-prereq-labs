@@ -10,10 +10,6 @@ Your task:
               drone.flight.send_pcmd(0, roll, 0, 0)
 """
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../library'))
 import drone_core
 
 ROW_WIDTH  = 2.0    # metres between lawnmower rows

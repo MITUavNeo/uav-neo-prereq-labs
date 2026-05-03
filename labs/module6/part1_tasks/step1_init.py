@@ -5,10 +5,6 @@ The drone takes off and climbs to LINE_ALTITUDE metres — the correct height fo
 downward camera to see the full width of the red line below.
 """
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../library'))
 import drone_core
 
 LINE_ALTITUDE = 1.2    # metres — fly at this height to see the line below

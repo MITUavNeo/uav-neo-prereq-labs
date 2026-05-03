@@ -36,13 +36,9 @@ Once colour detected:
 Returns True when the line colour has been identified and confirmed.
 """
 
-import sys, os
 import cv2
 import numpy as np
 
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../library'))
 import drone_core
 import drone_utils as uav_utils
 

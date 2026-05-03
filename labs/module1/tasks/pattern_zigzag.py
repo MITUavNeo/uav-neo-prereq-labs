@@ -6,11 +6,7 @@ Hint: a sinusoidal roll command produces a smooth zigzag.
     roll = ROLL_AMP * math.sin(2 * math.pi * _elapsed / SWING_PERIOD)
 """
 
-import sys, os
 import math
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../library'))
 import drone_core
 
 FORWARD_PITCH = 0.4    # constant forward speed

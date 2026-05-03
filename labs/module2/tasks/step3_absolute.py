@@ -14,10 +14,7 @@ Your task:
     4. Return True when within POSITION_THRESHOLD of the target.
 """
 
-import sys, os, math
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../library'))
+import math
 
 import drone_core
 

@@ -8,10 +8,6 @@ Your task:
     Phase 1: Fly forward 1.5 more seconds past the threshold, then _done = True.
 """
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../library'))
 import drone_core, drone_utils as uav_utils
 
 EXIT_DISTANCE = 4.0   # m — front clear beyond this = we've exited the maze

@@ -16,10 +16,6 @@ Your task:
     Implement reset() and update() below.
 """
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../library'))
 import drone_core
 
 # ── Gate waypoints: (metres_forward_from_prev_gate, target_altitude_m) ─────────

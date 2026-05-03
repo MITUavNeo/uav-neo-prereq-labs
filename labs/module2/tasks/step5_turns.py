@@ -18,11 +18,6 @@ Your task:
             Stop and wait pause_sec seconds, then advance to next turn
 """
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../library'))
-
 import drone_core
 
 # ── Turn sequence: list of (target_heading_deg, pause_seconds, label) ─────────────

@@ -20,10 +20,6 @@ Your task:
     Turn directions in TURN_SEQUENCE: 'L' = CCW = add 90°, 'R' = CW = subtract 90°.
 """
 
-import sys, os
-_HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../../../library'))
 import drone_core, drone_utils as uav_utils
 
 STOP_DISTANCE = 1.2; FLY_SPEED = 0.35; YAW_SPEED = 0.5; YAW_THRESH = 3.0

@@ -7,8 +7,6 @@ Title: Module 5 Part 4 — Right-Hand Rule Maze Solver
 
 import sys, os
 _HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(_HERE, '../../../uav-neo-library/library'))
-sys.path.insert(0, os.path.join(_HERE, '../../library'))
 sys.path.insert(0, os.path.join(_HERE, '..'))
 import drone_core
 from part4_tasks import step1_init, step2_right_hand_rule, step3_exit
